@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato | bikcraft</title>
   <meta name="description" content="Contato .">
-  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">>
+  <link rel="stylesheet" href="./css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https: //fonts.googleapis.com/css2? família= Merriweather:ital,wght@1.900 &family= Poppins:wght@400;600 & family= Roboto:wght@400;500 & display=swap" rel="stylesheet">
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
+
 <body id="contato">
   <header class="header-bg">
     <div class="header container">
@@ -26,7 +32,7 @@
           <li><a href="./contato.html">Contato</a></li>
         </ul>
       </nav>
-    </div> 
+    </div>
   </header>
 
   <main>
@@ -37,7 +43,7 @@
       </div>
     </div>
 
-    <div class="contato container">
+    <div class="contato container fadeInDown2" data-anime="300">
       <section class="contato-dados" aria-label="Endereço">
         <h2 class="font-1-m cor-0">Loja online</h2>
         <div class="contato-endereco font-2-s cor-4">
@@ -98,7 +104,7 @@
         </div>
         <div class="lojas-dados font-2-s cor-8">
           <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
-            <a href="tel:+5521999999999">+55 21 99999-9999</a>
+          <a href="tel:+5521999999999">+55 21 99999-9999</a>
         </div>
         <p class="lojas-tempo font-2-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
       </div>
@@ -114,11 +120,11 @@
         </div>
         <div class="lojas-dados font-2-s cor-8">
           <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
-            <a href="tel:+5511999999999">+55 11 99999-9999</a>
+          <a href="tel:+5511999999999">+55 11 99999-9999</a>
         </div>
         <p class="lojas-tempo font-2-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
-      <div>
-    </div>
+        <div>
+        </div>
   </article>
 
   <footer class="footer-bg">
@@ -157,7 +163,11 @@
       </div>
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
-    
+
   </footer>
+
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
+
 </html>

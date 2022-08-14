@@ -209,6 +209,5 @@
 }
 
 .orcamento-termos input:checked + label::before {
-  background-color: var(--cor-p1);
-  background-image: url(../../img/icones/checked.svg);
+  background: var(--cor-p1) url(../../img/icones/checked.svg);
 }
