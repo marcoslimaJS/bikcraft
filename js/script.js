@@ -71,3 +71,16 @@ galeria.forEach(eventosGaleria);
 if(window.SimpleAnime) {
   new SimpleAnime();
 }
+
+
+// Menu Mobile Hambuguer 
+const btnMobile = document.getElementById('btn-mobile')
+
+const menu = document.getElementById('menu')
+
+function toggleMenu () {
+  const nav = document.getElementById('nav')
+  nav.classList.toggle('active')
+}
+
+btnMobile.addEventListener('click', toggleMenu);
