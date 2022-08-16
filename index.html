@@ -10,7 +10,7 @@
 
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./css/style.min.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,13 @@
 
 <body>
   <header class="header-bg">
-    <div class="header container" id="header">
-      <a href="./" id="logo">
+    <div class="header container">
+      <a href="./">
         <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
       </a>
       <nav aria-label="primaria" id="nav">
-        <button id="btn-mobile">Menu</button>
-        <ul class="header-menu font-1-m cor-0" id="menu">
+        <button id="btn-mobile" aria-label="Abrir-menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false" ><span id="hamburguer"></span></button>
+        <ul class="header-menu font-1-m cor-0" id="menu" role="menu">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
